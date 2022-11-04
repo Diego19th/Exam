@@ -30,6 +30,7 @@ body{
 .container{
     margin: 0 auto;
     scroll-behavior: smooth;
+    height: calc(100vh + 800px);
 }
 .ej{
     margin-left: 40px;

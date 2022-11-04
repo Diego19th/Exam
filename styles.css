@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:paleturquoise;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+.nav .title{
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+.ej{
+    margin-left: 40px;
+    width: 600px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.sect1{
+    background-color: cadetblue;
+    margin-left: 40px;
+    width: 600px;
+    padding: 40px;
+}
+.sect2{
+    padding: 30px;
+    background-color: lightsalmon;
+    height: 200px;
+}
+.sect3{
+    background-color: rgb(82, 148, 17);
+    padding: 30px;
+}
+.sect3 ul, .sect4 ul{
+    margin-left: 40px;
+}
+.sect4{
+    padding: 30px;
+    background-color: darkorchid;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+.form{
+    height: 100px;
+    padding: 20px 10px;
+    background-color: aliceblue;
+}
+.form form p{
+    font-size: 1.8rem;
+}
+.form form input{
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+}
+.answers{
+    list-style: upper-alpha;
+}
+.answers li{
+    margin-left: 40px;
+}
